@@ -1,13 +1,20 @@
-h1 {
-    font-size: 48px;
-    text-transform: uppercase;
-    font-weight: 900;
-    margin-top: 35px;
-    max-width: 600px;
-    margin-bottom: 60px;
-}
 
 .container {
 	max-width: 1000px;
     padding: 0 15px;
+}
+
+.s3 > .container {
+    background: url(../img/program_bg.png) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    // background-position: right;
+    padding-bottom: 110px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-top: 35px;
+    max-width: 600px;
+    margin-bottom: 60px;
 }

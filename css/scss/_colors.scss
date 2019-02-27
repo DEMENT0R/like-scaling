@@ -1,6 +1,6 @@
 
 .s1, .s7, .s11 {
-	background-color: red;
+	background-color: #e53045;
 	color: white;
 }
 
@@ -11,4 +11,15 @@
 .s12 {
 	background-color: black;
 	color: white;
+}
+
+
+.text-red {
+	color: #e53045;
+}
+
+.main-form {
+	background-color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
 }
