@@ -27,29 +27,45 @@ section {
 
 
 // BUTTONS
-
-.s1 .button-red {
+.button {
     display: inline-block;
     text-align: center;
     text-decoration: none;
     font-family: Muller;
     font-size: 18px;
     font-weight: bold;
-    color: #e53045;
     width: 280px;
     height: 44px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    background-color: #fff;
 
     padding-top: 11px;
 
     margin-top: 44px;
 }
+// Header
+.button-red {
+    color: #e53045;
+    background-color: #fff;
+}
 
-.s1 .button-red:hover {
+.button-red:hover {
     color: white;
     background-color: #e53045;
     border: 1px solid white;
+}
+
+// Form
+
+.button-white {
+    color: white;
+    background-color: #e53045;
+    border: 1px solid white;
+}
+
+.button-white:hover {
+    color: #e53045;
+    background-color: #fff;
+    border: 1px solid #e53045;
 }
