@@ -36,13 +36,48 @@
 <body>
   <!-- Тело -->
   <div class="wrapper">
-  	<header>
-  		<div class="container">
-  			<div class="navbar">
-  				<p><b>Menu</b></p>
-  			</div>
-  		</div>
-  	</header>
+    <header class="navbar-s">
+      <div class="container">
+        <div class="navbar">
+          <a class="logo-new" href="http://likecentre.ru">
+            <svg class="logo-new__svg">
+              <use xlink:href="#logo">
+                
+              </use>
+            </svg>
+          </a>
+          <label class="navbar__toggle toggle">
+            <input class="toggle__check" type="checkbox" />
+            <p class="toggle__text">Меню</p>
+            <div class="toggle__btn">
+              <span class="toggle__line toggle__line_1"></span>
+              <span class="toggle__line toggle__line_2"></span>
+              <span class="toggle__line toggle__line_3"></span>
+            </div>
+            <ul class="toggle__field">
+              <li class="toggle__item">
+                <a class="toggle__link" href="#lvlup" title="text">TEST</a>
+              </li>
+              <li class="toggle__item">
+                <a class="toggle__link" href="#moderator" title="text">TEST</a>
+              </li>
+              <li class="toggle__item">
+                <a class="toggle__link" href="#speaker" title="text">TEST</a
+                  ></li>
+              <li class="toggle__item">
+                <a class="toggle__link" href="#programm" title="text">TEST</a>
+              </li>
+              <li class="toggle__item">
+                <a class="toggle__link" href="#packet" title="text">TEST</a>
+              </li>
+              <li class="toggle__item">
+                <a class="toggle__link" href="#address" title="text">TEST</a>
+              </li>
+            </ul>
+          </label>
+        </div>
+      </div>
+    </header>
   	<section class="s1">
   		<div class="container row">
         <div class="col-8">
@@ -282,8 +317,10 @@
             <br><br><br><br><br><br><br><br><br><br><br><br>
             </p>
             <hr class="col-9 offset-1 bg-danger">
-            <p class="text-red text-center bold">289 990 р</p>
-            <div class="col-10 offset-1 button button-white mt-1">Принять участие</div>
+            <p class="text-red text-center bold">179 990 р</p>
+          </div>
+          <div class="col-12 bg-half-white">
+            <a href="#" class="col-10 offset-1 button button-white mt-1">Принять участие</a>
           </div>
         </div>
         <div class="col-10 offset-1 col-md-5 offset-md-2 row">
@@ -312,8 +349,10 @@
               • индивидуальный разбор бизнеса от Василия Алексеева в течение 40 минут: поможет выявить точки, требующие доработки, и найти пути решения
             </p>
             <hr class="col-9 offset-1 bg-danger">
-            <p class="text-red text-center bold">179 990 р</p>
-            <div class="col-10 offset-1 button button-white mt-1">Принять участие</div>
+            <p class="text-red text-center bold">289 990 р</p>
+          </div>
+          <div class="col-12 bg-half-white">
+            <a href="#" class="col-10 offset-1 button button-white mt-1">Принять участие</a>
           </div>
         </div>
   		</div>
@@ -385,7 +424,7 @@
   <!-- Минифицированные jquery и slick slider-->
   <!-- <script type="text/javascript" src="js/libs.min.js"></script> -->
   <!-- Скрипт загрузки svg на страницу-->
-  <!-- <script type="text/javascript" src="js/localStorage.js"></script> -->
+  <script type="text/javascript" src="js/localStorage.js"></script>
   <!-- Таймер отсчета дней-->
   <!-- <script src="https://e-timer.ru/js/etimer.js"></script> -->
   <!-- Основной файл с скриптами-->
