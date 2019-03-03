@@ -25,8 +25,9 @@ section {
     flex-direction: column;
 }*/
 
-
-// BUTTONS
+/////////////
+// BUTTONS //
+/////////////
 .button {
     display: inline-block;
     text-align: center;
@@ -73,4 +74,13 @@ section {
     color: #e53045;
     background-color: #fff;
     border: 1px solid #e53045;
+}
+
+///////////
+// FROMS //
+///////////
+
+#select-city {
+    width: 50%;
+    display: inline-block;
 }
