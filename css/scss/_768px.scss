@@ -22,3 +22,73 @@ h1 {
     margin-top: 35px;
     margin-bottom: 60px;
 }
+
+///////////////////
+// Program Blocks//
+///////////////////
+
+.program-block {
+    height: 63vh;
+    max-height: 488px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.program-block-1 {
+    background-image: url('/img/program/block_1.png');
+}
+
+.program-block-2 {
+    background-image: url('/img/program/block_2.png');
+}
+
+.program-block-3 {
+    background-image: url('/img/program/block_3.png');
+}
+
+.program-block-4 {
+    background-image: url('/img/program/block_4.png');
+}
+
+.program-block-5 {
+    background-image: url('/img/program/block_5.png');
+}
+
+.program-block-6 {
+    background-image: url('/img/program/block_6.png');
+}
+
+.program-block-7 {
+    background-image: url('/img/program/block_7.png');
+}
+
+.program-block-8 {
+    background-image: url('/img/program/block_8.png');
+}
+
+//////////////////
+// Result Blocks//
+//////////////////
+
+.result-block {
+    height: 63vh;
+    max-height: 488px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.result-block-1 {
+    background-image: url('/img/results/member_1.png');
+}
+
+.result-block-2 {
+    background-image: url('/img/results/member_2.png');
+}
+
+.result-block-3 {
+    background-image: url('/img/results/member_3.png');
+}
+
+.result-block-4 {
+    background-image: url('/img/results/member_4.png');
+}
