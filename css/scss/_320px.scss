@@ -12,17 +12,25 @@
 
 //Tabs
 
-.block-3-tab.nav-link {
+.program-tabs-phones {
+    display: flex;
+}
+.program-tabs {
+    display: none;
+}
+
+.block-3-tab-phones.nav-link {
+    display: inline-block;
     border: none;
     color: black;
     border-bottom: 2px solid #c9c8c8;
 }
 
-.block-3-tab.nav-link:hover {
+.block-3-tab-phones.nav-link:hover {
     border-color: #e53045;
 }
 
-.block-3-tab.nav-link.active {
+.block-3-tab-phones.nav-link.active {
     background-color: transparent;
     color: #e53045;
 
@@ -30,12 +38,15 @@
     border-bottom: 2px solid #e53045;
 }
 
-.program-tabs {
+.program-tabs-phones {
     text-align: justify;
 }
-.program-tabs li{
+.program-tabs-phones li{
+    display: hidden;
+}
+.program-tabs-phones li.active{
     display: inline-block;
-    width: 12%;
+    width: 100%;
 }
 
 .program-block {
