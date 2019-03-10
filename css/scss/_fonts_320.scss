@@ -1,0 +1,119 @@
+/////////////////
+// Global fonts//
+/////////////////
+
+//init
+
+@font-face {
+    font-family: 'Muller';
+    src: url(../fonts/Fontfabric-MullerRegular.otf);
+}
+
+//320px
+
+//Global Section Titles
+.section-title {
+    font-family: Muller;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+
+// Global Standart Text
+.standart-text {
+    font-family: Muller;
+    font-size: 16px;
+    color: #000;
+}
+
+
+//Header
+.header-title {
+    font-family: Muller;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.header-subtitle-1 {
+    font-family: Muller;
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.header-subtitle-2 {
+    font-family: Muller;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.white-button {
+    font-family: Muller;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e53045;
+
+    width: 280px;
+    height: 44px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.white-button:hover {
+    text-decoration: none;
+    color: #fff;
+
+    background-color: #fff;
+}
+
+
+// Course
+// Standart Text
+
+// Waiting for
+// Standart Text
+// Red Bold
+.waiting-red-bold {
+    font-family: Muller;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e53045;
+}
+
+// Program
+// Block
+.program-tab-red-bold{
+    font-family: Muller;
+    font-size: 16px;
+    color: #e53045;
+    font-weight: bold;
+}
+
+//Titles
+.program-title {
+    font-family: Muller;
+    color: #e53045;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.program-title-slash {
+    font-size: 16px;
+}
+
+.program-title-time {
+    font-size: 16px;
+    color: #000;
+}
+
+
+

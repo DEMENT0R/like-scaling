@@ -66,6 +66,20 @@ h1 {
     //background-image: url('/img/program/block_1.png');
 }
 
+.program-block-1-part {
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.program-block-1-top {
+    background-image: url('/img/program/block_1_top.png');
+}
+
+.program-block-1-bottom {
+    background-image: url('/img/program/block_1_bottom.png');
+}
+
 .program-block-2 {
     background-image: url('/img/program/block_2.png');
 }
@@ -93,6 +107,8 @@ h1 {
 .program-block-8 {
     background-image: url('/img/program/block_8.png');
 }
+
+
 
 //////////////////
 // Result Blocks//

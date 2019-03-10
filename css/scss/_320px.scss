@@ -4,3 +4,114 @@
     position: relative;
 
 }
+
+
+///////////////////
+// Program Blocks//
+///////////////////
+
+//Tabs
+
+.block-3-tab.nav-link {
+    border: none;
+    color: black;
+    border-bottom: 2px solid #c9c8c8;
+}
+
+.block-3-tab.nav-link:hover {
+    border-color: #e53045;
+}
+
+.block-3-tab.nav-link.active {
+    background-color: transparent;
+    color: #e53045;
+
+    border: none;
+    border-bottom: 2px solid #e53045;
+}
+
+.program-tabs {
+    text-align: justify;
+}
+.program-tabs li{
+    display: inline-block;
+    width: 12%;
+}
+
+.program-block {
+    height: 63vh;
+    max-height: 488px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.program-block-1 {
+    //background-image: url('/img/program/block_1.png');
+}
+
+.program-block-2 {
+    background-image: url('/img/program/block_2.png');
+}
+
+.program-block-3 {
+    background-image: url('/img/program/block_3.png');
+}
+
+.program-block-4 {
+    background-image: url('/img/program/block_4.png');
+}
+
+.program-block-5 {
+    background-image: url('/img/program/block_5.png');
+}
+
+.program-block-6 {
+    background-image: url('/img/program/block_6.png');
+}
+
+.program-block-7 {
+    background-image: url('/img/program/block_7.png');
+}
+
+.program-block-8 {
+    background-image: url('/img/program/block_8.png');
+}
+
+.program-main-block {
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.line {
+  position: relative;
+  left: 15px;
+  top: 6px;
+  width: 0px;
+  height: 20px;
+  border: 0.5px solid red;
+}
+
+.round {
+  position: relative;
+  left: 10px;
+  top: 6px;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+  border: 1px solid red;
+}
+
+.round::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 100%;
+}
+
+.block {
+  border: 1px solid red;
+  padding: 5px;
+}
+
+
