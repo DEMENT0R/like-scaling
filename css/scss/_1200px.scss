@@ -1,0 +1,144 @@
+
+.container {
+	max-width: 1200px;
+    padding: 0 15px;
+    padding-bottom: 50px;
+}
+
+.s3 > .container {
+    background: url(../img/course_bg.png) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.s4 > .container {
+    background: url(../img/program_bg.png) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    margin-top: 35px;
+    margin-bottom: 60px;
+}
+
+///////////////////
+// Program Blocks//
+///////////////////
+
+//Tabs
+
+.program-tabs-phones {
+    display: none;
+}
+.program-tabs {
+    display: flex;
+}
+
+.block-3-tab.nav-link {
+    border: none;
+    color: black;
+    border-bottom: 2px solid #c9c8c8;
+}
+
+.block-3-tab.nav-link:hover {
+    border-color: #e53045;
+}
+
+.block-3-tab.nav-link.active {
+    background-color: transparent;
+    color: #e53045;
+
+    border: none;
+    border-bottom: 2px solid #e53045;
+}
+
+.program-tabs {
+    text-align: justify;
+}
+.program-tabs li{
+    display: inline-block;
+    width: 12%;
+}
+
+.program-block {
+    height: 63vh;
+    max-height: 488px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.program-block-1 {
+    //background-image: url('/img/program/block_1.png');
+}
+
+.program-block-1-part {
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.program-block-1-top {
+    background-image: url('/img/program/block_1_top.png');
+}
+
+.program-block-1-bottom {
+    background-image: url('/img/program/block_1_bottom.png');
+}
+
+.program-block-2 {
+    background-image: url('/img/program/block_2.png');
+}
+
+.program-block-3 {
+    background-image: url('/img/program/block_3.png');
+}
+
+.program-block-4 {
+    background-image: url('/img/program/block_4.png');
+}
+
+.program-block-5 {
+    background-image: url('/img/program/block_5.png');
+}
+
+.program-block-6 {
+    background-image: url('/img/program/block_6.png');
+}
+
+.program-block-7 {
+    background-image: url('/img/program/block_7.png');
+}
+
+.program-block-8 {
+    background-image: url('/img/program/block_8.png');
+}
+
+
+
+//////////////////
+// Result Blocks//
+//////////////////
+
+.result-block {
+    height: 63vh;
+    max-height: 488px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.result-block-1 {
+    background-image: url('/img/results/member_1.png');
+}
+
+.result-block-2 {
+    background-image: url('/img/results/member_2.png');
+}
+
+.result-block-3 {
+    background-image: url('/img/results/member_3.png');
+}
+
+.result-block-4 {
+    background-image: url('/img/results/member_4.png');
+}
