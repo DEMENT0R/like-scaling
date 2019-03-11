@@ -125,3 +125,29 @@
 }
 
 
+//////////////////
+// Result Blocks//
+//////////////////
+
+.result-block {
+    height: 1200px;
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.result-block-1 {
+    background-image: url('/img/results/member_1_320.png');
+}
+
+.result-block-2 {
+    background-image: url('/img/results/member_2_320.png');
+}
+
+.result-block-3 {
+    background-image: url('/img/results/member_3_320.png');
+}
+
+.result-block-4 {
+    background-image: url('/img/results/member_4_320.png');
+}
