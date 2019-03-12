@@ -14,6 +14,7 @@
 
 .program-tabs-phones {
     display: flex;
+    width: 100%;
 }
 .program-tabs {
     display: none;
@@ -21,8 +22,10 @@
 
 .block-3-tab-phones.nav-link {
     display: inline-block;
+    width: 100%;
     border: none;
-    color: black;
+    color: #e53045;
+    font-weight: bolder;
     border-bottom: 2px solid #c9c8c8;
 }
 
@@ -33,7 +36,6 @@
 .block-3-tab-phones.nav-link.active {
     background-color: transparent;
     color: #e53045;
-
     border: none;
     border-bottom: 2px solid #e53045;
 }
@@ -42,11 +44,11 @@
     text-align: justify;
 }
 .program-tabs-phones li{
-    display: hidden;
+    display: inline-block;
+    width: 12%;
 }
 .program-tabs-phones li.active{
     display: inline-block;
-    width: 100%;
 }
 
 .program-block {
