@@ -55,19 +55,19 @@
             </div>
             <ul class="toggle__field">
               <li class="toggle__item">
-                <a class="toggle__link" href="#lvlup" title="text">Для тебя</a>
+                <a class="toggle__link" href="#course" title="text">Для тебя</a>
               </li>
               <li class="toggle__item">
-                <a class="toggle__link" href="#moderator" title="text">Программа</a>
+                <a class="toggle__link" href="#program" title="text">Программа</a>
               </li>
               <li class="toggle__item">
-                <a class="toggle__link" href="#speaker" title="text">Обучение</a
+                <a class="toggle__link" href="#learning" title="text">Обучение</a
                   ></li>
               <li class="toggle__item">
-                <a class="toggle__link" href="#programm" title="text">Спикеры</a>
+                <a class="toggle__link" href="#speakers" title="text">Спикеры</a>
               </li>
               <li class="toggle__item">
-                <a class="toggle__link" href="#packet" title="text">Бонусы</a>
+                <a class="toggle__link" href="#bonuses" title="text">Бонусы</a>
               </li>
               <li class="toggle__item">
                 <a class="toggle__link" href="#results" title="text">Результаты</a>
@@ -96,7 +96,7 @@
         </div>
   		</div>
   	</section>
-  	<section class="s2">
+  	<section class="s2" id="course">
   		<div class="container row">
         <div class="col-12">
           <h2>Курс для тебя, если</h2>
@@ -134,7 +134,7 @@
         </div>
   		</div>
   	</section>
-  	<section class="s4">
+  	<section class="s4" id="program">
   		<div class="container row">
         <div class="col-12">
           <h2>Программа курса:</h2>
@@ -273,7 +273,7 @@
         </div>
   		</div>
   	</section>
-  	<section class="s5">
+  	<section class="s5" id="learning">
   		<div class="container row">
         <div class="col-12 row">
           <div class="col-12">
@@ -324,7 +324,7 @@
         </div>
   		</div>
   	</section>
-  	<section class="s6">
+  	<section class="s6" id="speakers">
   		<div class="container row">
         <div class="col-12">
           <h2>Спикеры "Масштабирования"</h2>
@@ -436,7 +436,7 @@
         </div>
   		</div>
   	</section>
-  	<section class="s7">
+  	<section class="s7" id="bonuses">
   		<div class="container row">
         <div class="col-12">
           <h2 class="text-white">Дополнительные бонусы</h2>
@@ -461,7 +461,7 @@
         </div>
   		</div>
   	</section>
-  	<section class="s8">
+  	<section class="s8" id="results">
   		<div class="container row">
         <div class="col-12">
           <h2>Результаты участников курса</h2>
@@ -502,7 +502,7 @@
         </div>
   		</div>
   	</section>
-  	<section class="s9">
+  	<section class="s9" id="packets">
   		<div class="container row">
         <div class="col-12">
           <h2>Пакеты участия</h2>
@@ -574,7 +574,7 @@
         </div>
   		</div>
   	</section>
-  	<section class="s10">
+  	<section class="s10" id="form">
   		<div class="container row">
         <div class="main-form col-10 offset-1 col-md-8 offset-md-2 p-md-5">
           <h2>Оставь заявку и мы с тобой свяжемся</h2>
@@ -595,8 +595,8 @@
                   <div class="fb-select form-group field-select-1551291867305">
                     <label for="select-1551291867305" class="fb-select-label"></label>
                     <select class="form-control" name="select-1551291867305" id="select-1551291867305">
-                      <option value="option-1" selected="true" id="select-1551291867305-0">МИНИМАЛЬНЫЙ</option>
-                      <option value="option-2" id="select-1551291867305-1">МАКСИМАЛЬНЫЙ</option>
+                      <option value="option-1" selected="true" id="select-1551291867305-0">Standart</option>
+                      <option value="option-2" id="select-1551291867305-1">Business</option>
                     </select>
                   </div>
                   <div class="fb-checkbox-group form-group field-checkbox-group-1551292110894"><label for="checkbox-group-1551292110894" class="fb-checkbox-group-label"></label>
@@ -611,7 +611,7 @@
         </div>
   		</div>
   	</section>
-  	<section class="s11">
+  	<section class="s11" id="city">
   		<div class="container row">
         <div class="col-12 text-center">
           <h2 class="text-white">«Масштабирование» в твоем городе</h2>
@@ -671,7 +671,7 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery, Popper, bootstrap JS -->
-  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <!--wow js-->
@@ -687,6 +687,17 @@
   <!-- <script src="https://e-timer.ru/js/etimer.js"></script> -->
   <!-- Основной файл с скриптами-->
   <!-- <script type="text/javascript" src="js/main.js"></script> -->
+
+              <script>
+                $(document).ready(function() {
+                  $("a").click(function () {
+                    var elementClick = $(this).attr("href")
+                    var destination = $(elementClick).offset().top;
+                    jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 800);
+                    return false;
+                  });
+                });
+              </script>
 </body>
 
 </html>
